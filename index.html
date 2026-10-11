@@ -3,21 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap 範例</title>
+    <title>FTDBLUEMOOD</title>
     <!-- 引入 Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-    <div class="container">
-        <h1 class="mt-5">it is a toyota</h1>
-        <div class="row">
-            <p class="col-12 col-md-6">
-                The .container class provides a responsive fixed width container.
-            </p> 
-            <p class="col-12 col-md-6">
-                In a small coastal village where the ocean whispered secrets to the shore, Clara spent her mornings sitting on the weathered wooden pier. While others saw only the repetitive rhythm of the tide, she listened for the tiny pauses between the waves—the brief, absolute silences before the water crashed against the rocks.
-                To Clara, those quiet moments were where life truly happened. In a world constantly rushing toward the next goal, the silence between beats offered a breath of clarity. It was in these peaceful gaps that she found the courage to embrace uncertainty and make sense of her own journey. The ocean reminded her daily that movement gains its power not from continuous force, but from knowing when to rest.
-            </p>
+<body class="container bg-primary" style="color: white;">
+    <h1 class="mt-5">FTDBLUEMOOD</h1>
+    <p>SMALL COMPANY SLOGAN GOES HERE</p>
+
+    <div class="bg-white border border-5 shadow-sm" style="border-color: #00bfff !important;">  
+        <div id="carouselExampleindicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleindicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleindicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleindicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleindicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pic/header.jpg" class="d-block w-100" alt="1">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/header2.jpg" class="d-block w-100" alt="2">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/header3.jpg" class="d-block w-100" alt="3">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/header4.jpg" class="d-block w-100" alt="4">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleindicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleindicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="bg-info bg-opacity-25 py-4 mb-4" >
+            <a href="#" class="text-decoration-none mx-5 ps-5"style="color: white;">Home</a>
+            <a href="#" class="text-decoration-none mx-5" style="color: white;">Blog</a>
+            <a href="#" class="text-decoration-none mx-5" style="color: white;">Gallery</a>
+            <a href="#" class="text-decoration-none mx-5" style="color: white;">About</a>
+            <a href="#" class="text-decoration-none mx-5" style="color: white;">Contact</a>
+        </div>
+
+        <div class="row px-4 my-4">
+        <div class="col-md-4 px-4">
+            <h3 style="color: rgb(0, 208, 255);">Your Options</h3>
+            <div class="d-flex align-item-start">
+                <img src=".jpg" class="img-fluid me-3" alt="Option 1" style="width: 70px; height: 70px;">
+                <div>
+                    <a href="#" style="color: rgb(0, 208, 255);">cras handrant meet est ibear arnarn sagirria.</a>
+                    <p class="small text-muted">Donec interdum dignissim risus et vestibulum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 px-4">
+            <h3 style="color: rgb(0, 208, 255);">Company News</h3>
+            <div class="d-flex align-item-start">
+                <img src=".jpg" class="img-fluid me-3" alt="Option 1" style="width: 100px; height: 100px;">
+                <div>
+                    <a href="#" style="color: rgb(0, 208, 255);">fhios handrant dee erar niids sgaaip sagirria.</a>
+                    <p class="small text-muted">samoam kafkp okfpka pkafkwofk kofovkfb.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 px-4">
+            <h3 style="color: rgb(0, 208, 255);">Have a Question?</h3>
+            <div class="d-flex align-item-start">
+                <img src=".jpg" class="img-fluid me-3" alt="Option 1" style="width: 100px; height: 100px;">
+                <div>
+                    <a href="#" style="color: rgb(0, 208, 255);">Donec interdum dignissim risus et vestibulum.</a>
+                    <p class="small text-muted">cras handrant meet est ibear arnarn sagirria.</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
